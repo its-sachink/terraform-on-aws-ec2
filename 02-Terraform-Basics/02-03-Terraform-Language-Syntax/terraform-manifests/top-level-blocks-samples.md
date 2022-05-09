@@ -18,18 +18,24 @@ terraform {
     dynamodb_table = "terraform-dev-state-table"
   }
 }
+
+
 #####################################################################
 # Block-2: Provider Block
 provider "aws" {
   profile = "default" # AWS Credentials Profile configured on your local desktop terminal  $HOME/.aws/credentials
   region  = "us-east-1"
 }
+
+
 #####################################################################
 # Block-3: Resource Block
 resource "aws_instance" "ec2demo" {
   ami           = "ami-04d29b6f966df1537" # Amazon Linux
   instance_type = var.instance_type
 }
+
+
 #####################################################################
 # Block-4: Input Variables Block
 variable "instance_type" {
@@ -37,18 +43,24 @@ variable "instance_type" {
   description = "EC2 Instance Type"
   type = string
 }
+
+
 #####################################################################
 # Block-5: Output Values Block
 output "ec2_instance_publicip" {
   description = "EC2 Instance Public IP"
   value = aws_instance.my-ec2-vm.public_ip
 }
+
+
 #####################################################################
 # Block-6: Local Values Block
 # Create S3 Bucket - with Input Variables & Local Values
 locals {
   bucket-name-prefix = "${var.app_name}-${var.environment_name}"
 }
+
+
 #####################################################################
 # Block-7: Data sources Block
 # Get latest AMI ID for Amazon Linux2 OS
@@ -77,6 +89,8 @@ data "aws_ami" "amzlinux" {
   }
 
 }
+
+
 #####################################################################
 # Block-8: Modules Block
 # AWS EC2 Instance Module
