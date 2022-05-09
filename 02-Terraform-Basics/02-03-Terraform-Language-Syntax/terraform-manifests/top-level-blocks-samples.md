@@ -101,7 +101,7 @@ data "aws_ami" "amzlinux" {
 
 #####################################################################
 # Block-8: Modules Block
-# AWS EC2 Instance Module
+## AWS EC2 Instance Module
 
 ```t
 module "ec2_cluster" {
