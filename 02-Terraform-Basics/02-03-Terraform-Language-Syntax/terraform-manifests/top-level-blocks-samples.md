@@ -59,8 +59,9 @@ output "ec2_instance_publicip" {
 ```
 
 #####################################################################
+
 # Block-6: Local Values Block
-# Create S3 Bucket - with Input Variables & Local Values
+## Create S3 Bucket - with Input Variables & Local Values
 ```t
 locals {
   bucket-name-prefix = "${var.app_name}-${var.environment_name}"
@@ -69,7 +70,7 @@ locals {
 
 #####################################################################
 # Block-7: Data sources Block
-# Get latest AMI ID for Amazon Linux2 OS
+## Get latest AMI ID for Amazon Linux2 OS
 ```t
 data "aws_ami" "amzlinux" {
   most_recent      = true
