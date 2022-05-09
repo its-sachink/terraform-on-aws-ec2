@@ -1,3 +1,56 @@
+# Terraform Basic Blocks
+
+![image](https://user-images.githubusercontent.com/25415707/167407884-4be3b490-ced8-4c41-a3a5-85b56e02cc4f.png)
+
+
+![image](https://user-images.githubusercontent.com/25415707/167408095-b9b7082c-fe69-491a-b4cb-0ff6ef4b0d2d.png)
+
+
+![image](https://user-images.githubusercontent.com/25415707/167408198-e39ea5d9-a0ac-482d-8d9d-11d96a451503.png)
+
+
+![image](https://user-images.githubusercontent.com/25415707/167408587-fff584ff-199e-4319-80bf-d5d85ab155bd.png)
+
+
+![image](https://user-images.githubusercontent.com/25415707/167408643-7142b944-447a-4c27-a173-d04cd1c36572.png)
+
+
+![image](https://user-images.githubusercontent.com/25415707/167408763-1035e2dd-4de2-4d4c-b98e-0fe67f3c0c92.png)
+
+
+![image](https://user-images.githubusercontent.com/25415707/167408964-eb69e0a7-ceaa-4a30-b48f-ac8ca0872d2a.png)
+
+
+![image](https://user-images.githubusercontent.com/25415707/167409064-5fa26736-f6f3-4896-b76c-c20babc0d46c.png)
+
+
+![image](https://user-images.githubusercontent.com/25415707/167409458-b73667ef-5476-4de3-acd0-2e08290d6fec.png)
+
+
+![image](https://user-images.githubusercontent.com/25415707/167409541-141a7178-a377-4ed0-b20f-8c85348eb239.png)
+
+
+![image](https://user-images.githubusercontent.com/25415707/167436446-e707da3e-0cc7-4070-bcbf-9c0e2bfc5521.png)
+
+
+![image](https://user-images.githubusercontent.com/25415707/167436484-5d020956-c7fe-4be9-85e8-80a14d6c62ec.png)
+
+
+## Argument Reference : Inputs that are given
+## Attribute Reference : Values that can be exported for the resources
+
+![image](https://user-images.githubusercontent.com/25415707/167437300-2e75fd29-4688-4cc9-bfe2-b192a788a4eb.png)
+
+
+## Terraform State
+
+![image](https://user-images.githubusercontent.com/25415707/167437852-4313a663-fbbf-4395-b25c-34605a8b91c4.png)
+
+![image](https://user-images.githubusercontent.com/25415707/167437913-e6f6386d-9815-4ff4-8fc3-cf62262f7d81.png)
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 # Terraform Settings, Providers & Resource Blocks
 ## Step-01: Introduction
 - [Terraform Settings](https://www.terraform.io/docs/language/settings/index.html)
