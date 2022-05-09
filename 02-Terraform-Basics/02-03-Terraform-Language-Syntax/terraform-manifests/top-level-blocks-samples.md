@@ -1,5 +1,6 @@
 #####################################################################
 # Block-1: Terraform Settings Block
+```t
 terraform {
   required_version = "~> 0.14"
   required_providers {
@@ -18,52 +19,58 @@ terraform {
     dynamodb_table = "terraform-dev-state-table"
   }
 }
-
+```
 
 #####################################################################
 # Block-2: Provider Block
+```t
 provider "aws" {
   profile = "default" # AWS Credentials Profile configured on your local desktop terminal  $HOME/.aws/credentials
   region  = "us-east-1"
 }
-
+```
 
 #####################################################################
 # Block-3: Resource Block
+```t
 resource "aws_instance" "ec2demo" {
   ami           = "ami-04d29b6f966df1537" # Amazon Linux
   instance_type = var.instance_type
 }
-
+```
 
 #####################################################################
 # Block-4: Input Variables Block
+```t
 variable "instance_type" {
   default = "t2.micro"
   description = "EC2 Instance Type"
   type = string
 }
-
+```
 
 #####################################################################
 # Block-5: Output Values Block
+```t
 output "ec2_instance_publicip" {
   description = "EC2 Instance Public IP"
   value = aws_instance.my-ec2-vm.public_ip
 }
-
+```
 
 #####################################################################
 # Block-6: Local Values Block
 # Create S3 Bucket - with Input Variables & Local Values
+```t
 locals {
   bucket-name-prefix = "${var.app_name}-${var.environment_name}"
 }
-
+```
 
 #####################################################################
 # Block-7: Data sources Block
 # Get latest AMI ID for Amazon Linux2 OS
+```t
 data "aws_ami" "amzlinux" {
   most_recent      = true
   owners           = ["amazon"]
@@ -89,12 +96,13 @@ data "aws_ami" "amzlinux" {
   }
 
 }
-
+```
 
 #####################################################################
 # Block-8: Modules Block
 # AWS EC2 Instance Module
 
+```t
 module "ec2_cluster" {
   source                 = "terraform-aws-modules/ec2-instance/aws"
   version                = "~> 2.0"
@@ -115,4 +123,6 @@ module "ec2_cluster" {
     Environment = "dev"
   }
 }
+```
+
 #####################################################################
