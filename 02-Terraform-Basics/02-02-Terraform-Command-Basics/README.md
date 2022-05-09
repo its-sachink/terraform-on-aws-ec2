@@ -8,6 +8,9 @@
   - terraform apply
   - terraform destroy      
 
+![image](https://user-images.githubusercontent.com/25415707/167354492-da69646d-84a0-41c7-a274-bea6c47794e6.png)
+
+
 ## Step-02: Review terraform manifest for EC2 Instance
 - **Pre-Conditions-1:** Ensure you have **default-vpc** in that respective region
 - **Pre-Conditions-2:** Ensure AMI you are provisioning exists in that region if not update AMI ID 
