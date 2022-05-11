@@ -95,3 +95,10 @@
 ![image](https://user-images.githubusercontent.com/25415707/167823967-96adc0da-8400-4ad8-bfac-ce771115ec80.png)
 
 ![image](https://user-images.githubusercontent.com/25415707/167824016-af9195c5-fc19-4769-83fc-a60f2dda84c2.png)
+
+
+# Chapter 41 : Implement fix for AZ to instance type check and test
+
+![image](https://user-images.githubusercontent.com/25415707/167824808-4771c3ad-6958-4bf2-b510-369261166b34.png)
+
+![image](https://user-images.githubusercontent.com/25415707/167825033-7aa674fe-b9c4-4a8b-8d22-171017da90c5.png)
