@@ -72,5 +72,26 @@
 
 # Chapter 40 : Implement utility project Full Dynamic Version
 
+![image](https://user-images.githubusercontent.com/25415707/167822982-b923b465-ff80-418b-81a5-4e25c3e22e91.png)
 
+![image](https://user-images.githubusercontent.com/25415707/167823161-2ed275cd-6dd5-4407-97ad-45ddf6224339.png)
 
+![image](https://user-images.githubusercontent.com/25415707/167823339-0db183b6-899a-40e0-8c91-7cea782107b2.png)
+
+![image](https://user-images.githubusercontent.com/25415707/167823446-06cd7c2f-0000-4953-8a64-98c18e161587.png)
+
+![image](https://user-images.githubusercontent.com/25415707/167823579-0e160730-6546-4f2d-a8ea-f3b991fc38ca.png)
+
+![image](https://user-images.githubusercontent.com/25415707/167823647-b7b22c3a-f840-452b-9677-f00d04e95796.png)
+
+![image](https://user-images.githubusercontent.com/25415707/167823718-841ea462-92f6-48d2-bad1-dc633c7c5b21.png)
+
+![image](https://user-images.githubusercontent.com/25415707/167823827-ae114ca8-363e-423b-88fc-8fc3547dc7b1.png)
+
+![image](https://user-images.githubusercontent.com/25415707/167823866-5f9df58a-ffb9-4c9d-9816-2a4d610e3f8a.png)
+
+## If you want one value from the list then,
+
+![image](https://user-images.githubusercontent.com/25415707/167823967-96adc0da-8400-4ad8-bfac-ce771115ec80.png)
+
+![image](https://user-images.githubusercontent.com/25415707/167824016-af9195c5-fc19-4769-83fc-a60f2dda84c2.png)
